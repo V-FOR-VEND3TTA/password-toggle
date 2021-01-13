@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!--FONT AWESOME ICONS-->
+    <link rel="stylesheet" type="text/css" href="fonts/css/all.min.css" />
+    <!--MY STYLING-->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <form class="form-box">
+      <h1>Login</h1>
+      <div class="input-box">
+        <i class="fa fa-user"></i>
+        <input type="username" placeholder="Enter your username" />
+      </div>
+      <div class="input-box">
+        <i class="fa fa-key"></i>
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="password"
+        />
+        <span class="eye" onclick="togglePassword()"
+          ><i id="hide" class="fa fa-eye"></i>
+          <i id="show" class="fa fa-eye-slash"></i
+        ></span>
+      </div>
+      <button type="button" class="login-btn">Login</button>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
